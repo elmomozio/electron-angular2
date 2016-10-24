@@ -1,6 +1,19 @@
 # ElectronAngular2
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
+This project is a skeleton using electron and angular 2.
+For angular 2 this project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
+
+## Installation
+```bash
+# Make sure both is installed globally
+npm install -g angular-cli
+npm install -g electron
+git clone https://github.com/elmomozio/electron-angular2.git
+cd electron-angular2/
+npm install
+```
+## Electron
+Run `npm start` to test the application with electron
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -19,7 +32,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Deploying to Github Pages
